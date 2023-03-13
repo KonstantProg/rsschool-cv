@@ -21,6 +21,7 @@ My goal is to become a sought-after web developer, able to satisfy even the most
 + MacOS, Windows OS
 + Unix command line
 + VSCode, Sublime Text, Atom
++ Figma, XD
 
 ## Code example:
 ```javascript
@@ -30,3 +31,23 @@ function wordLength(word) {
  var word = prompt('write a some word!');
  alert(wordLength(word));
 ```
+
+## Experience:
+I have experience in developing websites on a free basis for ready design.
+
+## My education:
++ Self-study by books
++ W3schools
++ CS50 lectures
++ Mimo
++ The App Brewery
+
+
+## Languages:
+Russian language is my native language.
+
+---
+
+English | Chinese | Turkish
+:---: | :---: | :---:
+*B1* | *HSK2* | *A1*
