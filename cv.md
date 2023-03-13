@@ -22,3 +22,11 @@ My goal is to become a sought-after web developer, able to satisfy even the most
 + Unix command line
 + VSCode, Sublime Text, Atom
 
+## Code example:
+```javascript
+function wordLength(word) {
+	return word.length;
+};
+ var word = prompt('write a some word!');
+ alert(wordLength(word));
+```
