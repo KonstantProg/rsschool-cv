@@ -19,7 +19,7 @@
 				<nav class="nav">
 					<ul class="nav__list list-reset">
 						<li class="list__item"><a href="#about" class="nav__link active-link">About me</a></li>
-						<li class="list__item"><a href="#" class="nav__link">My education</a></li>
+						<li class="list__item"><a href="#education" class="nav__link">My education</a></li>
 						<li class="list__item"><a href="#contacts" class="nav__link">Contacts</a></li>
 					</ul>
                     <button class="burger__btn">
@@ -34,7 +34,7 @@
     <main>
 		<section class="hero">
 			<div class="container">
-				<div class="left-column">
+				<div class="left-column" id="education">
 					<h2 class="column__title">My Skills:</h2>
 					<ul class="column__list list-reset">
 						<li>HTML</li>
@@ -65,30 +65,24 @@
 		</section>
 		<section id="about" class="about">
 			<div class="container">
-
 				<h2>Some about me:</h2>
-				<p>A purposeful and promising web developer with a great desire to self improving.
+				<p>Hello, my name is <i>Akhremchuk Konstantin</i>. I am purposeful and promising web developer with a great desire to self improving.
 				My goal is to become a sought-after web developer, able to satisfy even the most sophisticated client.</p>
-				
 				<h2>Experience:</h2>
 				<p>I have experience in developing websites on a free basis for ready design.</p>
-				
 				<h2>Languages:</h2>
 				<ul class="list-reset about__languages">
 					<li>English - <b>B1</b></li>
 					<li>Chinese - <b>HSK3</b></li>
 					<li>Turkish - <b>A1</b></li>
 				</ul>
-				
 				<div class="example">
-				<h2>Code example:</h2>
-				
-				<pre>function multiply(a, b){
+				    <h2>Code example:</h2>
+				    <pre>function multiply(a, b){
 	return a * b&nbsp;}
-				</pre>
-				
-			</div>
-			<div class="about__experience">My experience as <a href="https://konstantprog.github.io/rsschool-cv/cv">Link to my CV</a></div>
+				    </pre>
+			    </div>
+			<div class="about__experience">My experience as <a href="https://konstantprog.github.io/rsschool-cv/cv"><b>Link to my CV</b></a></div>
 			</div>
 		</section>
 		<section id="contacts" class="contacts">
@@ -110,5 +104,14 @@
 			<a href="https://rs.school/courses/javascript-ru"><img src="images/rs_school_js.svg" width="95" alt="RsSchool"></a>
 		</div>
 	</footer>
+    <script>
+        const burgerEl = document.querySelector('.burger__btn');
+        const menuEl = document.querySelector('.nav__list');
+        const navLink = document.querySelectorAll('.nav__link');
+
+        burgerEl.addEventListener('click', () => {
+            menuEl.classList.toggle('burger-active');
+        });
+    </script>
 </body>
 </html>
